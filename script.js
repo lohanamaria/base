@@ -24,7 +24,7 @@ mostrarProdutoDestaque(){
 }
 
 const exemplo = new Produto("Bolsa de couro: ", "Preta, pequena e de porte chique para festas", 230);
-console.log(produto.mostrarProduto())
+console.log(exemplo.mostrarProduto())
 
 const produtoDestaque = new ProdutoDestaque("Bolsa de couro: ", "Preta, pequena e de porte chique para festas", 230 , 'https://www.schiaparelli.com/img/modules/2022/10/duo-1117-635a58dfd717f.jpeg?frz-v=114');
 console.log(produtoDestaque.mostrarProdutoDestaque())
