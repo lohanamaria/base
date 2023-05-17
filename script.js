@@ -28,8 +28,10 @@ class ProdutoDestaque extends Produto{
     }
 }
 
-const produtoDestaque = new ProdutoDestaque("Bolsa de couro: ", "Preta, pequena e de porte chique para festas", "230" , 'https://www.schiaparelli.com/img/modules/2022/10/duo-1117-635a58dfd717f.jpeg?frz-v=114');
 
 
-  const produto = document.getElementById("produto-destaque");
-  produto.insertAdjacentHTML('afterbegin', produtoDestaque.mostrarProdutoDestaque());
+  const produto = new ProdutoDestaque("Doublegibson vermelha: ", "Gibson EDS-1275 Braço Duplo Cereja 5.03kg 1992 Guitarra elétrica com estojo rígido F/S", 58.815 , 'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgZz3UxLuyPpBkm89KSlkjXp0_JXtOT6mFboYOkIZD2rhCgEN06d-oyAn65qjZXWyx3jAIYDYPWe4Da9varooZTJpvOBmtrAERicSHY7l_&usqp=CAE');
+  console.log(produto.mostrarProdutoDestaque());
+  
+  const produtoDestaque = document.getElementById("produtoDestaque");
+  produtoDestaque.insertAdjacentHTML('afterbegin', produto.mostrarProdutoDestaque());

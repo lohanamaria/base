@@ -1,3 +1,16 @@
 body {
-  background: #fcfafa;
+  background: rgb(255, 245, 245)
+}
+
+ h1, h4 {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Lucida Sans';
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  text-shadow: rgb(0, 0, 0);
+font-family: 'Lucida Sans';
 }
