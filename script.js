@@ -23,7 +23,7 @@ class ProdutoDestaque extends Produto{
             <h1>${this.nome} </h1>
             <h1>${this.descricao} </h1>
             <h1>${this.preco} </h1>
-            <h1>${this.imagem} </h1>
+           <img src="${this.imagem}">
         `
     }
 }
