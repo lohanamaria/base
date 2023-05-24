@@ -1,53 +1,39 @@
 body {
-  background: rgb(255, 245, 245)
+  background: rgb(255, 245, 245);
 }
 
- h1, h4 {
+h1, h4 {
   font-size: 20px;
   text-align: center;
   color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   font-family: 'Times New Roman';
 }
+
 h2, h3 {
   font-size: 10px;
   text-align: center;
-  text-shadow: rgb(0, 0, 0);
-font-family: 'Times New Roman';
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-family: 'Times New Roman';
 }
-h5{
-  font-size: 35px;
+
+h5 {
+  font-size: 15px;
   text-align: center;
-  text-shadow: rgb(0, 0, 0);
-font-family: 'Times New Roman';
-}
-imagem {
-  text-align: center;
-  align-items: center;
-  
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  font-family: 'Times New Roman';
 }
 
- .prodsec {
-      width: 50px;
-      height: 50px;
-      margin-right: 15px;
-      background-color: #ccc;
-    }
+.prodsec, .prodterc, .prodquar {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  background-color: #ccc;
+}
 
- .prodterc {
-      width: 50px;
-      height: 50px;
-      margin-right: 15px;
-      background-color: #ccc;
-    }
-
- .prodquar {
-      width: 50px;
-      height: 50px;
-      margin-right: 15px;
-      background-color: #ccc;
-    }
-.produto-imagem { 
+.produto-imagem {
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
