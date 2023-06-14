@@ -4,6 +4,8 @@
     pkgs.nodejs-16_x
     pkgs.nodejs-16_x
     pkgs.nodejs-16_x
+    pkgs.nodejs-16_x
+    pkgs.nodejs-16_x
     pkgs.node script.js
     pkgs.nodejs-16_x
     pkgs.nodePackages.vscode-langservers-extracted

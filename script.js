@@ -72,62 +72,62 @@ const imagem = "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgZz3UxL
 
 criarProdutoDestaque(nome, descricao, preco, imagem);
 
-const prodsec = new ProdutoDestaque(
+const prodsec = new Produto(
   "Fender Stratocaster",
   "Fender Stratocaster Sunburst Electric Guitar",
   "$2999.99"
 );
-console.log(prodsec.mostrarProdutoDestaque());
+console.log(prodsec.mostrarProduto());
 
 const produtosec = document.getElementById("produtosec");
 produtosec.insertAdjacentHTML('afterbegin', prodsec.mostrarProduto());
 
-const prodterc = new ProdutoDestaque(
+const prodterc = new Produto(
   "Gibson Black Ebony",
   "Gibson Flying V B-2 Satin Ebony Guitar",
   "$19999.99"
 );
-console.log(prodterc.mostrarProdutoDestaque());
+console.log(prodterc.mostrarProduto());
 
 const produtoterc = document.getElementById("produtoterc");
 produtoterc.insertAdjacentHTML("afterbegin", prodterc.mostrarProduto());
 
-const prodquar = new ProdutoDestaque(
+const prodquar = new Produto(
   "PRS Custom 24",
   "PRS Custom 24 Blue Burst Electric Guitar",
   "$2999.99"
 );
-console.log(prodquar.mostrarProdutoDestaque());
+console.log(prodquar.mostrarProduto());
 
 const produtoquar = document.getElementById("produtoquar");
 produtoquar.insertAdjacentHTML("afterbegin", prodquar.mostrarProduto());
 
-const prodquin = new ProdutoDestaque(
+const prodquin = new Produto(
   "Ibanez RG550",
   "Ibanez RG550 Genesis Collection Desert Sun Yellow Electric Guitar",
   "$1499.99"
 );
-console.log(prodquin.mostrarProdutoDestaque());
+console.log(prodquin.mostrarProduto());
 
 const prodquinElemento = document.getElementById("prodquin");
 prodquinElemento.insertAdjacentHTML('afterbegin', prodquin.mostrarProduto());
 
-const prodsex = new ProdutoDestaque(
+const prodsex = new Produto(
   "Gretsch G2622 Streamliner",
   "Gretsch G2622 Streamliner Center Block Double Electric Guitar",
   "$799.99"
 );
-console.log(prodsex.mostrarProdutoDestaque());
+console.log(prodsex.mostrarProduto());
 
 const prodsexElemento = document.getElementById("prodsex");
 prodsexElemento.insertAdjacentHTML('afterbegin', prodsex.mostrarProduto());
 
-const prodset = new ProdutoDestaque(
+const prodset = new Produto(
   "Epiphone Les Paul",
   "Epiphone Les Paul Standard '50s Electric Guitar",
   "$599.99"
 );
-console.log(prodset.mostrarProdutoDestaque());
+console.log(prodset.mostrarProduto());
 
 const prodsetElemento = document.getElementById("prodset");
 prodsetElemento.insertAdjacentHTML('afterbegin', prodset.mostrarProduto());
