@@ -70,7 +70,6 @@ const descricao = "Gibson EDS-1275 Cherry Double Neck 5.03kg 1992 Electric Guita
 const preco = "$58.815";
 const imagem = "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgZz3UxLuyPpBkm89KSlkjXp0_JXtOT6mFboYOkIZD2rhCgEN06d-oyAn65qjZXWyx3jAIYDYPWe4Da9varooZTJpvOBmtrAERicSHY7l_&usqp=CAE";
 
-criarProdutoDestaque(nome, descricao, preco, imagem);
 
 const prodsec = new Produto(
   "Fender Stratocaster",
